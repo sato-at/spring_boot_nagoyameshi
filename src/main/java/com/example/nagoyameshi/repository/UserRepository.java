@@ -11,4 +11,6 @@ public interface UserRepository extends JpaRepository<User, Integer> {
 
 	public Page<User> findByNameLikeOrFuriganaLike(String nameKeyword, String furiganaKeyword, Pageable pageable);
 
+	public long countByRole_Name(String roleName);
+
 }
