@@ -48,4 +48,6 @@ public class RestaurantEditForm {
 
 	private List<Integer> categoryIds;
 
+	private List<Integer> regularHolidayIds;
+
 }
